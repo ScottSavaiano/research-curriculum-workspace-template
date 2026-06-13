@@ -9,8 +9,8 @@ program_phase: year1-first-time      # year1-first-time | year2-execution | year
 current_project_id: null             # set when your project begins
 current_cycle: null                  # 1, 2, or 3 — null until your first cycle opens
 current_regime: planning             # planning | execution | between-cycles | closed
-cycle_template_stage: null           # 1–18 within the active cycle — null in the once-only opening sequence
-spine_complete: false                # the once-only opening (discipline → topic → research problem) is done?
+cycle_template_stage: null           # 1–18 within the active cycle — null in the project initiation sequence
+spine_complete: false                # the project initiation sequence (discipline → topic → research problem) is done?
 seal_status:
   cycle_1: unsealed                  # a cycle seals when its proposal is approved
 
