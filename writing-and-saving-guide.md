@@ -27,4 +27,4 @@ Either way, your agent reads your writing back in, lines it up with your paper u
 - **You can check your progress anytime.** Ask your mentor "what's the status of my paper" and it'll show you what's written and what's still open.
 - **Don't hand-edit `project_paper_status.md`.** That one small file is your mentor's to manage. Everything else here you can read freely; the only file you *write into* is your paper, through the steps above.
 
-*(The exact way you open and switch between your agents and your Doc depends on the app you're using; your setup lessons walk through it. The five steps above are the same regardless.)*
+*(You open and switch between your three agents by clicking their icons on the bottom left of your Hermes app window; your setup lessons walk through it. The five steps above are the same regardless.)*
