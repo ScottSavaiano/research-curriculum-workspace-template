@@ -1,0 +1,9 @@
+# Staged reference-article files (PDFs + extracted text) are kept LOCAL only — your research
+# agent re-stages them on each machine (fetch-articles), and they are not redistributed through
+# your repository (copyright). The articles/ folder and its README stay tracked; the contents don't.
+articles/*
+!articles/README.md
+
+# macOS / editor noise
+.DS_Store
+*.swp
