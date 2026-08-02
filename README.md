@@ -1,6 +1,6 @@
 # Your research workspace
 
-This folder is your research project's home for the year. Your three AI agents — your **project mentor**, your **research agent**, and your **review agent** — all read from and write to the files here. That shared folder is how they stay on the same page about your project: when one of them records something, the others can see it.
+This folder is your research project's home for the year. Your three AI agents — your **project mentor**, your **research agent**, and your **Review Agent** — all read from and write to the files here. That shared folder is how they stay on the same page about your project: when one of them records something, the others can see it.
 
 You do not need to edit most of these files yourself. The agents keep them up to date as you work. The one thing that's *yours* to write is your paper — see **`working_paper.md`** and the **writing-and-saving guide** below.
 
@@ -21,8 +21,9 @@ You do not need to edit most of these files yourself. The agents keep them up to
 
 | Folder | What it holds |
 |---|---|
-| `articles/` | The reference-article PDFs and their extracted text, staged locally for your research agent. *(Not pushed to GitHub — see `.gitignore`.)* |
-| `journals/` | Your weekly reflections, written with your review agent. |
+| `articles/` | The reference-article PDFs and their extracted text, staged locally for your research agent. *(Kept on your computer only, not synced to Drive — see the note in that folder.)* |
+| `journals/` | Your weekly reflections, written with your Review Agent. |
+| `reviews/` | Your **Review Agent's** dated review files — each execution-plan review and each Quality Control (QC) audit, memorialized so you can draw on them for your paper and your competition application. |
 | `proposals/` | One compiled proposal document per research cycle. |
 | `versions/` | Dated snapshots of your paper, so nothing is ever lost. |
 | `briefings/` | Dated "where am I / what's next" snapshots your agents drop each session. |
@@ -33,4 +34,4 @@ You do not need to edit most of these files yourself. The agents keep them up to
 
 ## How it travels
 
-This whole folder is backed by **git** and lives in a private repository your teacher set up for you through GitHub Classroom. You don't need to think about git day to day — your agents commit your work for you (including a push every week with your reflection). What it means for you: your work is saved, versioned, and visible to your teacher, automatically.
+This whole folder lives in **Google Drive** through **Google Drive for Desktop (Mirror mode)** — so it's a normal folder on your computer *and* it's synced to your Drive in the cloud, automatically, with nothing for you to do. Every time you or an agent changes a file, Drive backs it up and versions it. What it means for you: your work is saved, versioned, and visible to your teacher (your workspace folder is shared with them), without you ever thinking about it. You can be at a different computer and pick up where you left off, as long as Drive for Desktop is signed in there too.

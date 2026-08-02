@@ -1,8 +1,26 @@
-# Staged reference-article files (PDFs + extracted text) are kept LOCAL only — your research
-# agent re-stages them on each machine (fetch-articles), and they are not redistributed through
-# your repository (copyright). The articles/ folder and its README stay tracked; the contents don't.
+# NOTE (2026-08-02): This workspace is synced by Google Drive (Mirror mode), NOT git — so this
+# .gitignore governs NOTHING at runtime. It is retained only as a human-readable record of which
+# paths are meant to stay off the cloud. The actual enforcement is NOT this file and is NOT an
+# in-folder exclusion: Google Drive for Desktop mirrors a folder whole and cannot skip a subfolder
+# inside it. Instead, the research agent keeps raw/large/restricted data in a LOCAL-ONLY folder
+# OUTSIDE the mirrored workspace (e.g. ~/research-data-local/<workspace>/), so it never syncs at all.
+# See data/README.md → "What's synced vs. local — and how the split works."
+#
+# articles/ (copyrighted reference PDFs) now SYNC with the workspace — under the student-owned-Drive
+# model they are personal-use copies in the student's own Drive, and syncing lets them follow the
+# student across machines. (Earlier git-based setups excluded them to avoid redistribution in a
+# shared repo; that concern is gone under per-student Drive.)
 articles/*
 !articles/README.md
+
+# Raw research data does NOT live here — it is staged in a local-only folder outside the mirrored
+# workspace (see data/README.md). These patterns record the intent only; they enforce nothing.
+data/raw/*
+!data/raw/.gitkeep
+data/*.csv
+data/*.dta
+data/*.sav
+data/*.parquet
 
 # macOS / editor noise
 .DS_Store

@@ -16,7 +16,9 @@ You'll do this once per section, all year. It's the same five steps every time.
 
 5. **Save your writing back to your paper.** This is the step that updates `working_paper.md`. There are two ways, and they do the same thing — use whichever is set up for you:
    - **Automatic (if your Google account is connected):** just tell your agent you're done writing. It pulls your Doc back into your paper for you. (Your teacher sets this up at the start of the year; if it's on, this is all you do.)
-   - **Manual export:** in Google Docs, choose **File → Download → Markdown (.md)**, save the file into your research folder, and tell your agent you've saved it. It takes it from there.
+   - **Manual export:** in Google Docs, choose **File → Download → Markdown (.md)**, save the file into your **workspace folder** (the same Google Drive folder your agents work in — the one on your computer, which syncs to Drive on its own), and tell your agent you've saved it. It takes it from there.
+
+   You do this step at the computer where your agents run — the one with your Drive workspace folder on it. The *writing* in step 2 you can do anywhere (a Google Doc opens in any browser, on any device); saving-back is the one part that happens at your research computer.
 
 Either way, your agent reads your writing back in, lines it up with your paper using the headings, and updates `working_paper.md`. Your paper just grew by a section.
 
