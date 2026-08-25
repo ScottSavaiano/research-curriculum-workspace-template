@@ -12,7 +12,7 @@ You'll do this once per section, all year. It's the same five steps every time.
 
 3. **Delete each prompt as you write it.** Once you've replaced a prompt with your own sentence, delete the prompt line. By the time you're done, none of the prompt text is left — just your writing.
 
-4. **Delete the example quotes too — but keep the headings.** The quotes are *demonstrations* (someone else's published words, shown so you can see how it's done). They are not your sentences and they do not belong in your paper, so delete them. **Do not delete the section headings** (like "Research Problem" or "Topic-related Literature Synthesis") — your agents use those headings to line your writing back up with your paper, so keep them exactly as they are.
+4. **Delete the example quotes too — but keep the headings.** The quotes are *demonstrations* (someone else's published words, shown so you can see how it's done). They are not your sentences and they do not belong in your paper, so delete them. **Do not delete the section headings** (like "Research Problem" or "Problem-related Literature Synthesis") — your agents use those headings to line your writing back up with your paper, so keep them exactly as they are.
 
 5. **Save your writing back to your paper.** This is the step that updates `working_paper.md`. There are two ways, and they do the same thing — use whichever is set up for you:
    - **Automatic (if your Google account is connected):** just tell your agent you're done writing. It pulls your Doc back into your paper for you. (Your teacher sets this up at the start of the year; if it's on, this is all you do.)
