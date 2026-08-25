@@ -10,7 +10,7 @@ current_project_id: null             # set when your project begins
 current_cycle: null                  # 1, 2, or 3 — null until your first cycle opens
 current_regime: planning             # planning | execution | between-cycles | closed
 cycle_template_stage: null           # 1–25 within the active cycle — null in the project activation sequence
-spine_complete: false                # the project activation sequence (discipline → topic → research problem) is done?
+spine_complete: false                # the project activation sequence (discipline → research problem → methods) is done?
 seal_status:
   cycle_1: unsealed                  # a cycle seals when its proposal is approved
 
